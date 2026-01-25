@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.top {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.panel {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.user-text {
+  display: block;
+}
+
+.input-area {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30vh;
+  width: 80vh;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.summary {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.select {
+  width: 100%;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.last {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: blue;
+  color: white;
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.96);
+  opacity: 0.85;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.result-1 {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.result {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 80%;
+  max-width: 700px;
+}
+
+.result-text {
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
