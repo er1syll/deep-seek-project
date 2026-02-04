@@ -1,4 +1,4 @@
-export function User_text({ text, setText }) {
+export function UserText({ text, setText }) {
   return (
     <div className="panel">
       <div className="user-text">

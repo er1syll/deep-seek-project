@@ -3,9 +3,9 @@ import { useState } from "react";
 import OpenAI from "openai";
 import { Top } from "./Top";
 import { Result } from "./Result";
-import { User_text } from "./User_text";
+import { UserText } from "./User_text";
 import { Choose } from "./Choose";
-import { Summarize_button } from "./Summarize_button";
+import { SummarizeButton } from "./Summarize_button";
 
 function App() {
   const [text, setText] = useState("");
@@ -44,9 +44,9 @@ function App() {
   return (
     <div className="App">
       <Top />
-      <User_text text={text} setText={setText} />
+      <UserText text={text} setText={setText} />
       <Choose />
-      <Summarize_button handleResult={main} loading={loading} />
+      <SummarizeButton handleResult={main} loading={loading} />
       <Result result={result} />
     </div>
   );
